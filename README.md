@@ -16,7 +16,7 @@
    10. 
 2. SERVER
    1. Node.js (express)
-   2. 
+   2. JAVA
    3. 
 3. DBMS
    1. RDBMS
