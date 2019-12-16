@@ -16,6 +16,7 @@
    10. 
 2. App
    1. React Native
+      1. expo
 3. SERVER
    1. Node.js (express)
    2. JAVA
