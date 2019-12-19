@@ -169,3 +169,6 @@ HTML은 정보와 구조화, Content
 ## HTML에서 이것만은 확실히. 
 1. `form `태그의 정보를 server에 보내는 방법.
 2. `div`, `span` 태그에 어떻게 class와 id를 주고 UI를 꾸미느냐.
+
+## Reference
+- 
