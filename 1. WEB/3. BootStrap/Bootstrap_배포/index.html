@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootsrap CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>안녕하세요 title입니다.</title>
+    </head>
+
+    <body>
+<!--****** Container ******-->
+<!-- Container와 Container-fluid의 차이점 -->
+<!-- Container는 pc 환경에서 최대 너비 1170px를 차지 -->
+<!-- Container-fluid는 브라우저 가로 너비를 꽉차게 차지. -->
+        <!-- text-center: 좌우 여백 가운데 정렬 -->
+        <h1 class="separator" id="container">Container</h1>
+        <div class="container red text-center">
+            <h1>내가 만드는 첫번째 부트스트랩 페이지</h1>
+            <h2>container</h2>
+            <p>최대 너비 1170px을 차지합니다.</p>
+        </div>
+        <!-- 최대 너비: 최신 사이트 -->
+        <div class="container-fluid yellow">
+            <h1>내가 만드는 첫번째 부트스트랩 페이지</h1>
+            <h2>container-fluid</h2>
+            <p>브라우저 사이즈에 맞게 유동적으로 너비가 변합니다.</p>
+        </div>
+
+
+<!--****** Grid System ******-->
+<!-- 부트스트랩의 반응형 웹 부트스트랩의 핵심 기능 -->
+<!-- css로 width 주는것과 차이점?: 미디어 쿼리 없이 반응형이 적용된다. -->
+<!-- lg: PC 기준          1200px 미만 -->
+<!-- md: 작은 랩탑 기준    992px 미만 -->
+<!-- sm: 타블렛 기준       769px 미만 -->
+<!-- xs: 스마트폰 기준     변형 X -->
+<!-- Tip 요소를 알아볼 수 있도록 css를 설정해 놓으면 수정하기 용이-->
+        <h1 class="separator" id="grid_system">Grid System</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 red">
+                    <h1>col-md-6</h1>
+                    <p>col-md-6</p>
+                </div>
+                <div class="col-md-6 red">
+                    <h1>col-md-6</h1>
+                    <p>col-md-6</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 yellow">
+                    <h1>col-md-4</h1>
+                    <p>col-md-4</p>
+                </div>
+                <div class="col-md-4 yellow">
+                    <h1>col-md-4</h1>
+                    <p>col-md-4</p>
+                </div>
+                <div class="col-md-4 yellow">
+                    <h1>col-md-4</h1>
+                    <p>col-md-4</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 green">
+                    <h1>col-md-3</h1>
+                    <p>col-md-3</p>
+                </div>
+                <div class="col-md-3 green">
+                    <h1>col-md-3</h1>
+                    <p>col-md-3</p>
+                </div>
+                <div class="col-md-3 green">
+                    <h1>col-md-3</h1>
+                    <p>col-md-3</p>
+                </div>
+                <div class="col-md-3 green">
+                    <h1>col-md-3</h1>
+                    <p>col-md-3</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+                <div class="col-md-1 blue">
+                    <h1>col-md-1</h1>
+                    <p>col-md-1</p>
+                </div>
+            </div>
+
+            <h1>Grid System 응용</h1>
+            <div class="row">
+                <div class="col-md-8 red">
+                    <h3>col-md-8</h3>
+                    <p>col-md-8</p>
+                </div>
+                <div class="col-md-2 bluegreen">
+                    <h3>col-md-2</h3>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-md-2 bluegreen">
+                    <h3>col-md-2</h3>
+                    <p>col-md-2</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 bluegreen">
+                    <h3>col-md-2</h3>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-md-7 red">
+                    <h3>col-md-7</h3>
+                    <p>col-md-7</p>
+                </div>
+                <div class="col-md-3 green">
+                    <h3>col-md-3</h3>
+                    <p>col-md-3</p>
+                </div>
+            </div>
+            <!-- col-xs-* 옵션 -->
+            <h1>col-xs-* 옵션 </h1>
+            <div class="row">
+                <div class="col-xs-6 col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-xs-6 col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-xs-6 col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-xs-6 col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-xs-6 col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+                <div class="col-xs-6 col-md-2 bluegreen">
+                    <h1>col-md-2</h1>
+                    <p>col-md-2</p>
+                </div>
+            </div>
+        </div>
+
+<!--****** table ******-->
+        <!-- table-bordered, table-hover -->
+        <h1 class="separator" id="table">TABLE</h1>
+        <div class="container">
+            <h1>table</h1>
+            <table class="table">
+                <!-- 컬럼명 -->
+                <thead>
+                    <th>이름</th>
+                    <th>전화번호</th>
+                    <th>이메일</th>
+                </thead>
+                <!-- table Body: 테이블 본 컨텐츠 -->
+                <tbody>
+                    <!-- table Row: 하나의 Row를 나타냄 -->
+                    <tr>
+                        <!-- table Data -->
+                        <td>유인국</td>
+                        <td>01043330000</td>
+                        <td>pillarorigin@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>유주원</td>
+                        <td>01012345678</td>
+                        <td>abc@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>김경희</td>
+                        <td>01012343338</td>
+                        <td>kyh123@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 행을 구별하여 직관적으로 보기 쉽게한다. -->
+            <h1>table table-striped</h1>
+            <table class="table table-striped">
+                <thead>
+                    <th>이름</th>
+                    <th>전화번호</th>
+                    <th>이메일</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>유인국</td>
+                        <td>01043330000</td>
+                        <td>pillarorigin@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>유주원</td>
+                        <td>01012345678</td>
+                        <td>cheol@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>김경희</td>
+                        <td>01012343338</td>
+                        <td>kyh123@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- hover 즉 마우스 오버를 하면 현재 오버된 row를 강조표시한다.
+                UX, 즉 사용자 편의를 생각한 UI이다.
+            -->
+            <h1>table table-hover</h1>
+            <table class="table table-hover">
+                <thead>
+                    <th>이름</th>
+                    <th>전화번호</th>
+                    <th>이메일</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>유인국</td>
+                        <td>01043330000</td>
+                        <td>pillarorigin@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>유주원</td>
+                        <td>01012345678</td>
+                        <td>cheol@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>김경희</td>
+                        <td>01012343338</td>
+                        <td>kyh123@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+<!--****** Images ******-->
+<!--****** Images ******-->
+        <h1 class="separator" id="img">img</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>img-rounded</h1>
+                    <img src="img/dog_cat.jpg" class="pet_image img-rounded" alt="cat_dog">
+                </div>
+                <div class="col-md-4">
+                    <h1>img-circle</h1>
+                    <img src="img/dog.jpg" class="pet_image dog img-circle" alt="dog">
+                </div>
+                <div class="col-md-4">
+                    <h1>img-responsive</h1>
+                    <img src="img/cat.jpg" class="img-responsive" alt="cat">
+                </div>
+            </div>
+
+            <!-- .img 옵션이 있을때와 없을때 비교 -->
+            <!-- 옵션이 아예 없을 때: 이미지 원본 사이즈 그대로 출력이 된다. -->
+            <h1>부트스트랩 옵션이 없을 때</h1>
+            <p>원본이미지가 출력되어 레이아웃을 벗어나며 하단에 스크롤바가 생기게 됩니다.</p>
+            <img src="img/dog_cat.jpg" alt="cat_dog">
+            <h1>css width: 100% 옵션</h1>
+            <p>container 내에서 가로 100%를 채웁니다.</p>
+            <p>container 에서 가로 100%를 채웁니다.</p>
+            <img src="img/dog_cat.jpg" class="pet_image" alt="cat_dog">
+            <h1>부트스트랩 img-responsive 옵션</h1>
+            <img src="img/dog_cat.jpg" class="img-responsive" alt="cat_dog">
+        </div>
+
+
+<!--****** inputs ******-->
+<!--****** inputs ******-->
+        <h1 class="separator" id="inputs">inputs</h1>
+        <div class="container">
+            <div class="form-group">
+                <label for="usr">ID:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="pwd">비밀번호:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group">
+                <label for="comment">글쓰기:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+
+            <!-- label 안에 input 태그가 있는것을 유의하자 -->
+            <h3>세로 checkbox</h3>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Option 1</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Option 2</label>
+            </div>
+            <div class="checkbox disabled">
+                <label><input type="checkbox" value="" disabled>Option 3</label>
+            </div>
+
+            <h3>가로 checkbox</h3>
+            <label class="checkbox-inline"><input type="checkbox" value="">Option 1</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">Option 2</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">Option 3</label>
+
+            <h3>가로 radio button</h3>
+            <label class="radio-inline"><input type="radio" name="optradio">Option 1</label>
+            <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
+            <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
+
+            <form>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Text</span>
+                    <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+                </div>
+            </form>
+
+            <form>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+<!--****** btn ******-->
+<!--****** btn ******-->
+        <h1 class="separator" id="btn">btn</h1>
+        <div class="container">
+            <h3>부트스트랩이 제공하는 다양한 색상디자인</h3>
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+
+        <!-- button 태그 이외에 input, a 태그에도 본 옵션 적용이 가능 -->
+        <div class="container">
+            <h3>button 이외의 태그에 적용가능</h3>
+            <a href="#" class="btn btn-primary">a태그 버튼</a>
+            <input type="button" class="btn btn-primary" value="Input버튼">
+            <input type="submit" class="btn btn-primary" value="Submit버튼">
+        </div>
+
+        <!-- 버튼 크기 변경 -->
+        <div class="container">
+            <h3>버튼 크기 변경 기능</h3>
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary btn-md">Medium</button>
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+            <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+        </div>
+
+        <div class="container">
+            <h3>btn-block: container 가로를 꽉채우는 버튼</h3>
+            <button type="button" class="btn btn-primary btn-block">Button 1</button>
+            <button type="button" class="btn btn-primary btn-block">Button 1</button>
+        </div>
+
+        <!-- 그리드 응용 -->
+        <div class="container">
+            <h3>grid_system을 응용한 버튼 배치</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-primary btn-block">확인</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-danger btn-block">취소</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3>btn-group 가로</h3>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">고양이</button>
+                <button type="button" class="btn btn-primary">강아지</button>
+                <button type="button" class="btn btn-primary">비둘기</button>
+            </div>
+            <h3>btn-group 세로</h3>
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-primary">고양이</button>
+                <button type="button" class="btn btn-primary">강아지</button>
+                <button type="button" class="btn btn-primary">비둘기</button>
+            </div>
+            <h3>btn-group 세로 꽉채우기</h3>
+            <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-primary">고양이</a>
+                <a href="#" class="btn btn-primary">강아지</a>
+                <a href="#" class="btn btn-primary">비둘기</a>
+            </div>
+        </div>
+
+
+<!--****** Navigation ******-->
+<!--****** Navigation ******-->
+<!-- 사이트의 페이지를 연결시켜주는 상단바 -->
+        <h1 class="separator" id="navigation">navigation</h1>
+        <!-- navbar의 외형 -->
+        <nav class="navbar navbar-default ">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="http://www.naver.com" class="navbar-brand">Naver</a>
+                </div>
+                <!-- 버튼 모음 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Main</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">게시판</a></li>
+                    <li><a href="#">자료실</a></li>
+                </ul>
+
+                <!-- 검색창, 검색버튼 -->
+                <!-- navbar-right: 우측정렬, 우측부터 요소가 추가된다. -->
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="검색어를 입력하세요.">
+                    </div>
+                    <button type="submit" class="btn btn-default">검색</button>
+                </form>
+
+                <!-- 검색창 + 검색버튼 통합 -->
+                <form class="navbar-form navbar-right">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="검색어를 입력하세요.">
+                        <!-- .input-group-btn: input창과 버튼을 일체화 시킨다. -->
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-default">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="top_navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="https://github.com/pillarorigin" class="navbar-brand">
+                        <img src="img/pillarOrigin.PNG" alt="pillarOrigin">
+                    </a>
+                </div>
+                <!-- 메뉴 모음 -->
+                <ul class="nav navbar-nav navbar-right"  id="top_navbar-nav">
+                    <!-- <li class="active"><a href="#">Main</a></li> -->
+                    <li><a href="#container">Container</a></li>
+                    <li><a href="#grid_system">Grid System</a></li>
+                    <li><a href="#table">Table</a></li>
+                    <li><a href="#img">Img</a></li>
+                    <li><a href="#btn">Btn</a></li>
+                    <li><a href="#navigation">Navigation</a></li>
+                    <li><a href="#modal">Modal</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<!--****** Carousel ******-->
+<!--****** Carousel ******-->
+        <h1 class="separator" id="carousel">carousel</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicator 표시자 -->
+            <ol class="carousel-indicators">
+                <!-- TIP: 선택자 -->
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- data-slide-to: 해당 Indicator 클릭 시 몇 번째 슬라이드로 넘어갈지 표시
+                class="active": 페이지 시작 시 Indicator의 초기값
+             -->
+
+            <!-- Wrapper for slides -->
+            <!-- 출력할 요소들을 넣어줍니다. -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/cat_carousel.jpg" alt="cat">
+                    <div class="carousel-caption">
+                        <h1>고양이</h1>
+                        <p>새침한 고양이가 집사를 바라봅니다.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/dog_carousel.jpg" alt="dog">
+                    <div class="carousel-caption">
+                        <h1>강아지</h1>
+                        <p>귀여운 강아지가 재미있게 놉니다.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/dog_cat_carousel.jpg" alt="dog_cat">
+                    <div class="carousel-caption">
+                        <h1><i class="fa fa-file" aria-hidden="true"></i>고양이와 강아지</h1>
+                        <p>고양이와 강아지는 친구입니다.</p>
+                    </div>
+                </div>
+                <!-- html은 어떤 상황에도 페이지의 정보를 사용자에게 효과적으로 전달하도록 만들어졌다. -->
+                <!-- alt 태그는 주소가 잘못 되었거나 서버에 문제가 있어 이미지를 제대로 불러오지 않을 때
+                    본 메시지를 이미지를 대신하여 출력합니다.
+                -->
+            </div>
+
+            <!-- 좌우 컨트롤 버튼 -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+<!--****** Modal ******-->
+<!--****** Modal ******-->
+        <h1 class="separator" id="modal">modal</h1>
+        <div class="container">
+            <!-- 모달 호출 버튼 -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">모달 버튼</button>
+        </div>
+        <!-- Modal -->
+        <!-- .modal: 배경이 아닌 모달 페이지임을 나타냄// 명시하지 않을 시 모달창까지 배경으로 인식함.  -->
+        <!-- .fade: 애니메이션으로 자연스러운 효과 -->
+        <div id="myModal" class="modal fade" role="dialog">
+
+            <!-- .modal-dialog: 모달창의 사이즈를 결정한다 -->
+            <!-- +++추가옵션 .modal-sm, .modal-lg -->
+            <div class="modal-dialog">
+
+                <!-- Modal content: 모달창에 들어갈 내용 삽입 -->
+                <div class="modal-content">
+
+                    <!-- .modal-header: modal창 상단바 -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">모달창 상단바</h4>
+                    </div>
+
+                    <!-- .modal-body: modal창 본 컨텐츠를 담음. -->
+                    <div class="modal-body">
+                        <p>본 구역에 내용을 삽입하세요</p>
+                        <img src="img/dog.jpg" alt="dog">
+                    </div>
+
+                    <!-- .modal-footer: modal창 하단바 -->
+                    <div class="modal-footer">
+                        <!-- BEFORE -->
+                        <button type="button" class="btn btn-default" data-dismiss="modal">확인</button>
+                        <!-- AFTER -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-primary btn-block">확인</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-danger btn-block">취소</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
