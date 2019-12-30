@@ -39,11 +39,12 @@
       4. truffle
       5. ganache
       6. 
-6. VM
+6. S/W Platform
    1. docker
 7. OS
    1. Windows
-   2. Linux (Ubuntu)
+   2. Linux (Debian-Ubuntu)
+   3. Linux(RedHat-CentOS)
 8. Security
    1. hacker
    2. secure coding
