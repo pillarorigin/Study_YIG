@@ -3,6 +3,8 @@
 
 ### directory Structure
 
+0. ETC
+
 1. WEB
    1. HTML
    2. CSS + SCSS
@@ -60,31 +62,31 @@
    3. Webgoat
    4. Burp suite
 10. Cloud Service
-   1. Amazon(AWS)
-   2. IBM(IBM Cloud)
-   3. MS (Azure)
-   4. Google (GCP & firebase)
-11. Team Project Tool
+   11. Amazon(AWS)
+   12. IBM(IBM Cloud)
+   13. MS (Azure)
+   14. Google (GCP & firebase)
+15. Team Project Tool
     1. slack
     2. notion
     3. Trello
     4. gitFlow
-   12. Algorithm
+   16. Algorithm
           1. algorithm training
-13. NetWork
+17. NetWork
     1. Wireshark (packit inside tool)
     2. 
-14. BigData
+18. BigData
     1. Python
     2. Kaggle
     3. Hadoop
     4. Spark
     5. TensorFlow
-15. cryptography
+19. cryptography
     1. encryption
     2. decryption
     3. 
-16. certificate
+20. certificate
     1. 정보처리기사
     2. 정보보안기사
     3. 정보통신기사
@@ -93,5 +95,5 @@
     6. SQLP
     7. ADP
     8. CISSP (국제 공인 정보 시스템 보안 전문가)
-17. Graduate 
+21. Graduate 
 
