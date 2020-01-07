@@ -35,9 +35,11 @@
 ​           
 2. 제목
 
+     ```bash
      텍스트 앞에 `#` 의 갯수 만큼 HTML의 `<h1>~<h6>` 태그레벨 조정 가능.
-       `#`을 두번 쓰면 `<h2>`태그를 의미한다.
-       #은 6개까지 쓸 수 있고, #이 늘어날때마다 제목의 수준(글씨 크기가 작아진다)은 내려간다.
+     `#`을 두번 쓰면 `<h2>`태그를 의미한다.
+     #은 6개까지 쓸 수 있고, #이 늘어날때마다 제목의 수준(글씨 크기가 작아진다)은 내려간다.
+     ```
 
      
 
@@ -235,8 +237,10 @@
 
 1. Link가 git에서 왜 안보일까요? 원인 찾기 -> 주말
 
-1. [Typora]: https://typora.io/	"MarkDown Editor"
+2. FootNote 문제도 찾아야 함.
 
-2. [Typora Reference]: https://support.typora.io/Markdown-Reference/
+3. [Typora]: https://typora.io/	"MarkDown Editor"
+
+4. [Typora Reference]: https://support.typora.io/Markdown-Reference/
 
    
