@@ -1,15 +1,8 @@
-#### Linux 에러
-
-```bash
-목차
-1. 마운트한 장치 삭제 후 booting 안되는 경우
-2. Linux RAID 작업 중 "will not make a filesystem here" 메세지
-3. 리눅스에서 md0가 md127로 바뀌는 현상
-
-Reference
-```
+[toc]
 
 
+
+### Linux 에러
 
 #### 1. 마운트한 장치를 삭제 한 후 booting이 안되는 경우
 
@@ -91,6 +84,22 @@ ARRAY /dev/md1 devices=/dev/sdc1, /dev/sdd1 name=localhost.localdomain:1 UUID=b0
 ```
 
 
+
+#### 4. "Couldn't resolve host 'mirrorlist.centos.org'" 
+
+```bash
+[root@localhost /]# yum update
+Loaded plugins: fastestmirror, security
+Setting up Update Process
+Loading mirror speeds from cached hostfile
+Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=6&arch=x86_64&repo=os&infra=stock error was
+14: PYCURL ERROR 6 - "Couldn't resolve host 'mirrorlist.centos.org'"
+Error: Cannot find a valid baseurl for repo: base
+```
+
+[원인] : OS를 설치하고 resolv.conf 에 nameserver 정보를 작성하지 않아 발생한 error
+
+[해결방법] : /etc/resolve.conf 파일에 nameserver 추가
 
 ### Reference
 
