@@ -41,14 +41,6 @@
          2. NginX
       2. DBMS
    5. On-promise
-   6. Cloud Service
-      1. Public Cloud
-            1. Amazon(AWS)
-            2. IBM(IBM Cloud)
-            3. MS (Azure)
-            4. Google (GCP & firebase)
-      2. Private Cloud
-      3. Hybrid Cloud
    7. Virtualization
       1. Host server virtual
       2. Hyper virtual
@@ -56,7 +48,14 @@
       4. Docker
       5. Kubernetes
 3. DevOps
-   1. 
+   1. Cloud Service
+      1. Public Cloud
+         1. Amazon(AWS)
+         2. IBM(IBM Cloud)
+         3. MS (Azure)
+         4. Google (GCP & firebase)
+      2. Private Cloud
+      3. Hybrid Cloud
 4. S/W
 5. Compiled Language
    1. C
