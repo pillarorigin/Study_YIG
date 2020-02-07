@@ -56,7 +56,7 @@
          4. Google (GCP & firebase)
       2. Private Cloud
       3. Hybrid Cloud
-4. S/W
+4. SW
 5. Compiled Language
    1. C
    2. C ++
@@ -83,16 +83,17 @@
    8. EJS (+pug +hdb)
    9. React (+vue +angular)
    10. Node.js (express)
+   11. API utilize
 9. App
    1. React Native
       1. expo
 10. DBMS
-   1. RDBMS
-      1. Oracle
-      2. Mysql
-      3. 
-   2. NoSQL
-      1. MongoDB
+        1. RDBMS
+           1. Oracle
+           2. Mysql
+           3. 
+        2. NoSQL
+           1. MongoDB
 11. BlockChain
     1. HyperLedger
        1. GO(ChainCode)
@@ -153,6 +154,6 @@
     7. ADP
     8. CISSP (국제 공인 정보 시스템 보안 전문가)
 16. Graduate 
-    1. 소프트웨어 공학
-    2. 보안 관련 학과
+    1. 해킹보안학과
+    2. 
 
